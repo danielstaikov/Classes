@@ -4,7 +4,7 @@ class Dataset:
         self.data = data
 
     def extract_header(self):
-        self.header = self.data[0]
+        return self.data[0]
 
 
 import csv
